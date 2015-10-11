@@ -12,7 +12,7 @@ class JConfig {
 	public $debug = '0';
 	public $debug_lang = '0';
 	public $dbtype = 'mysqli';
-	public $host = '127.9.95.2:3306';
+	public $host = '127.6.140.130:3306';
 	public $user = 'fabian';
 	public $password = 'fabian';
 	public $db = 'fab';
@@ -25,7 +25,7 @@ class JConfig {
 	public $ftp_host = '';
 	public $ftp_port = '';
 	public $ftp_user = 'fabian';
-	public $ftp_pass = 'evargas!123';
+	public $ftp_pass = '';
 	public $ftp_root = '';
 	public $ftp_enable = '0';
 	public $offset = 'UTC';
@@ -36,7 +36,7 @@ class JConfig {
 	public $sendmail = '/usr/sbin/sendmail';
 	public $smtpauth = '1';
 	public $smtpuser = 'fabianvargas@itbbconsulting.com';
-	public $smtppass = 'Evargas!432';
+	public $smtppass = '';
 	public $smtphost = 'smtp.gmail.com';
 	public $smtpsecure = 'ssl';
 	public $smtpport = '465';
@@ -60,11 +60,11 @@ class JConfig {
 	public $session_handler = 'database';
 	public $memcache_persist = '1';
 	public $memcache_compress = '0';
-	public $memcache_server_host = '127.9.95.2:3306';
+	public $memcache_server_host = '127.6.140.130:3306';
 	public $memcache_server_port = '11211';
 	public $memcached_persist = '1';
 	public $memcached_compress = '0';
-	public $memcached_server_host = '127.9.95.2:3306';
+	public $memcached_server_host = '127.6.140.130:3306';
 	public $memcached_server_port = '11211';
 	public $proxy_enable = '0';
 	public $proxy_host = '';
@@ -74,9 +74,9 @@ class JConfig {
 	public $MetaRights = '';
 	public $sitename_pagetitles = '0';
 	public $force_ssl = '0';
-	public $session_memcache_server_host = '127.9.95.2:3306';
+	public $session_memcache_server_host = '127.6.140.130:3306';
 	public $session_memcache_server_port = '11211';
-	public $session_memcached_server_host = '127.9.95.2:3306';
+	public $session_memcached_server_host = '127.6.140.130:3306';
 	public $session_memcached_server_port = '11211';
 	public $frontediting = '1';
 	public $feed_email = 'author';
